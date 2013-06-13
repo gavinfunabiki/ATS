@@ -1,8 +1,10 @@
 <?php
 
-	if (count(get_included_files()) == 1 || basename(__FILE__) == basename($_SERVER['SCRIPT_FILENAME']))
-
-		{header('HTTP/1.0 403 Forbidden'); exit();}
+	if (count(get_included_files()) == 1 || basename(__FILE__) == basename($_SERVER['SCRIPT_FILENAME'])) {
+	
+		header('HTTP/1.0 403 Forbidden'); exit();
+		
+	}
 
 ?>
 
@@ -18,8 +20,7 @@
 
 <!--[if (IE 9)&!(IEMobile)]><html class="ie9" lang="en"><![endif]-->
 
-<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-
+<!--[if (gt IE 9)|(gt IEMobile 7)]><html class="no-js" lang="en"><![endif]-->
 
 
 <!-- Head =================================================================================================-->
@@ -164,11 +165,18 @@
 
 	<meta name="msapplication-task" content="name=My profile;action-uri=http://www.pearl.com/ats/profile.html;icon-uri=http://www.pearl.com/ats/img/favicons/favicon.ico"><!---->
 
-</head><?php
+</head>
 
 
+<?php
 
-if(empty($_GET['page'])) $bodyClass=""; else $bodyClass=$_GET['page'];?>
+	if(empty($_GET['page'])) {
+	
+		$bodyClass=""; else $bodyClass=$_GET['page'];
+	
+	}
+
+?>
 
 
 
