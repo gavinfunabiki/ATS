@@ -11,11 +11,23 @@
 	}
 	
 
-	include("application.php"); 
+	include("application.php");
+	
+	$admincheck = str_split($page, 9);
 
-	$app->title='ATS - '.ucwords(str_replace("-", " ", $page));
+	if($admincheck[0] == 'recruiter') {
+		
+		$admin = 99;
+	
+	} else {
+		
+		$admin = 0;
+	
+	}
 
-	include("pages/blocks/header.php"); 
+	$app->title = 'ATS - '.ucwords(str_replace('-', ' ', $page));
+
+	include('pages/blocks/header.php'); 
 	
 ?>
 
@@ -25,15 +37,15 @@
 		
 	<?php
 
-		if(file_exists("pages/".$page.".php"))
+		if(file_exists('pages/'.$page.'.php'))
 
-			include("pages/".$page.".php");
+			include('pages/'.$page.'.php');
 
 		else {
 
-			$err_class='404';
+			$err_class = '404';
 
-			include("pages/error.php"); 
+			include('pages/error.php'); 
 
 		}
 			
@@ -45,9 +57,9 @@
     
 <?php
 
-    include("pages/blocks/footer.php");
+    include('pages/blocks/footer.php');
 
-    include("foot.php"); 
+    include('foot.php'); 
 
 ?>
 
