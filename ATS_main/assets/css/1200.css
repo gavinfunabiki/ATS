@@ -1,0 +1,13 @@
+/**
+ *
+ * Styles override for 1200+ pixels screens
+ */
+
+/* Class used to determine which media queries are on */
+#mediaquery-checker {
+	width: 50px;
+}
+
+.categories .span8{
+	width: 80%;
+}

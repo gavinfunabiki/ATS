@@ -1,0 +1,51 @@
+/**
+ *
+ * Styles override for less than 1015 pixels screens
+ */
+
+	.top-navigation{
+		background: url('../img/top_nav_bar_responsive.png') repeat-x 0 0;
+		min-height: 40px;
+		font-size: 1.2em;
+		color: #666666;
+		margin-top: 5px;
+		margin-bottom: 28px;
+		background-size: 100% 40px;
+	}
+
+	.top-navigation.step1-navigation{
+		background: url('../img/top_nav_bar_responsive_step1.png') repeat-x 0 0;
+		background-size: 100% 40px;
+	}
+
+	.top-navigation.step3-navigation{
+		background: url('../img/top_nav_bar_responsive_step3.png') repeat-x 0 0;
+		background-size: 100% 40px;
+	}
+
+	.top-navigation.step4-navigation{
+		background: url('../img/top_nav_bar_responsive_step4.png') repeat-x 0 0;
+		background-size: 100% 40px;
+	}
+
+	.top-navigation ul{
+		list-style: none;
+		margin-left: 13px;
+		margin-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.top-navigation ul li{
+		width: 25%;
+		text-align: center;
+		line-height: 36px;
+		float: left;
+		word-wrap: break-word;
+		overflow: hidden;
+		height: 40px;
+	}
+
+	.information_verification .top-navigation{
+		margin-bottom: 27px;
+		background-position: 0px 0px;
+	}

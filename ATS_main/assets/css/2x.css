@@ -1,0 +1,9 @@
+/**
+ *
+ * Styles override for high resolution screens
+ */
+
+/* Class used to determine which media queries are on */
+#mediaquery-checker {
+	height: 20px;
+}

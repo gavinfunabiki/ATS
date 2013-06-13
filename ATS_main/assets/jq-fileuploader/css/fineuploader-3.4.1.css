@@ -1,0 +1,378 @@
+/*
+
+ * Copyright 2013, Widen Enterprises info@fineuploader.com
+
+ *
+
+ * Licensed under GNU GPL v3, see license.txt.
+
+ */
+
+.qq-uploader {
+
+    position: relative;
+
+    width: 100%;
+
+	height:42px;
+
+}
+
+.qq-upload-drop-area, .qq-upload-extra-drop-area {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    min-height: 30px;
+
+    z-index: 2;
+
+    background: #FF9797;
+
+    text-align: center;
+
+}
+
+.qq-upload-drop-area span {
+
+    display: block;
+
+    position: absolute;
+
+    top: 50%;
+
+    width: 100%;
+
+    margin-top: -8px;
+
+    font-size: 16px;
+
+}
+
+.qq-upload-extra-drop-area {
+
+    position: relative;
+
+    margin-top: 50px;
+
+    font-size: 16px;
+
+    padding-top: 30px;
+
+    height: 20px;
+
+    min-height: 40px;
+
+}
+
+.qq-upload-drop-area-active {
+
+    background: #FF7171;
+
+}
+
+.qq-upload-list {
+
+	margin:0;
+
+    padding:8px 0px 14px;
+
+    list-style: none;
+
+	height:20px;
+
+	position:relative;
+
+}
+
+.qq-upload-list li {
+
+    margin: 0;
+
+	height:20px;
+
+    line-height: 20px;
+
+    font-size: 16px;
+
+}
+
+.qq-upload-spinner, .qq-upload-retry, .qq-upload-failed-text, .qq-upload-finished {
+
+    margin-right: 12px;
+
+	display:none !important;
+
+}
+
+
+
+.qq-upload-list .upfile {
+
+	position:absolute;
+
+	top:28px;
+
+	right:22px;
+
+	color:black;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:9px;
+
+	font-weight:bold;
+
+	color:black;
+
+}
+
+
+
+.qq-upload-button {
+
+	min-width:95px;
+
+}
+
+.qq-upload-spinner {
+
+    display: inline-block;
+
+    background: url("../../img/ajax_loader_16.gif");
+
+    width: 15px;
+
+    height: 15px;
+
+    vertical-align: text-bottom;
+
+}
+
+.qq-drop-processing {
+
+    display: none;
+
+}
+
+.qq-drop-processing-spinner {
+
+    display: inline-block;
+
+    background: url("../img/ajax_loader_24.gif");
+
+    width: 24px;
+
+    height: 24px;
+
+    vertical-align: text-bottom;
+
+}
+
+.qq-upload-finished {
+
+    display:none;
+
+    width:15px;
+
+    height:15px;
+
+    vertical-align:text-bottom;
+
+}
+
+.qq-upload-retry {
+
+    display: none;
+
+    color: #000000;
+
+}
+
+.qq-upload-retryable .qq-upload-retry {
+
+    display: inline;
+
+}
+
+
+
+.qq-upload-failed-text {
+
+    display: none;
+
+    font-style: italic;
+
+    font-weight: bold;
+
+}
+
+.qq-upload-failed-icon {
+
+    display:none;
+
+    width:15px;
+
+    height:15px;
+
+    vertical-align:text-bottom;
+
+}
+
+.qq-upload-fail .qq-upload-failed-text {
+
+    display: inline;
+
+}
+
+.qq-upload-retrying .qq-upload-failed-text {
+
+    display: inline;
+
+    color: #D60000;
+
+}
+
+.qq-upload-list li.qq-upload-success {
+
+    background-color: #5DA30C;
+
+    color: #FFFFFF;
+
+}
+
+.qq-upload-list li.qq-upload-fail {
+
+    background-color: #D60000;
+
+    color: #FFFFFF;
+
+}
+
+
+
+.qq-upload-list .progress-success {
+
+    margin-right: 10px;
+
+    width: 270px;
+
+}
+
+
+
+#uploader {
+
+	 padding:4px 0px;
+
+	 height:42px;
+
+}
+
+
+
+.upload{
+
+	padding: 15px 2px;
+
+	margin-right:10px;
+
+	width:290px;
+
+	
+
+	overflow:hidden;
+
+	white-space:nowrap;
+
+	text-overflow:ellipsis;
+
+}
+
+
+
+.progress {
+
+	margin-bottom:0px;
+
+	padding:1px;
+
+}
+
+
+
+.progress .bar {
+
+	background-color:#92c461;
+
+	background-image:none;
+
+	-webkit-border-radius: 4px;
+
+	-moz-border-radius: 4px;
+
+	border-radius: 4px;
+
+	top:2px;
+
+	left:2px;
+
+	position:relative;
+
+	height:17px;
+
+}
+
+
+
+.qq-upload-list .alert{
+
+	background: transparent !important;
+
+	border: 0px none;
+
+	padding: 0;
+
+}
+
+
+
+.qq-upload-list .alert-error{
+
+	float:left;
+
+	width:600px;
+
+	font-size:14px;
+
+	color: #d83c55;
+
+}
+
+.qq-upload-cancel.close{
+
+	position:relative;
+
+	top:1px!important;
+
+	color: #000 !important;
+
+	opacity:0.8 !important;
+
+}
+
+
+
+.qq-upload-cancel.close:hover{
+
+	color: #d83c55 !important;
+
+}
+

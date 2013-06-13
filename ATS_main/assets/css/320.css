@@ -1,0 +1,91 @@
+/**
+ *
+ * Styles override for 480+ pixels screens
+ */
+
+/* Class used to determine which media queries are on */
+
+/*body{
+	display: none !important;
+}*/
+
+#mediaquery-checker {
+	width: 20px;
+}
+
+
+.top-navigation {
+	padding-left:7px !important;
+	padding-right:5px !important;
+}
+
+.top-navigation ul{
+	margin-left: 0;
+	height:40px;
+}
+
+.top-navigation ul li{
+	width:16%;
+	margin-right:2%;
+	display:inline-block;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	text-align:left;
+	padding: 0 2% 0px 3.5%;
+}
+
+.top-navigation ul li span{
+	display: none;
+}
+.current_label{
+	width:93%;
+}
+
+form.form-inline .current_label label.cstyle{
+	width:90%;
+}
+
+.category-box .divider-vertical{
+	visibility: hidden;
+}
+.category-box .categories-container{
+	margin-left: 0%;
+}
+
+div.categories-container > div{
+	margin: 8px 0px;
+}
+
+.status .modal{
+	width: 245px;
+	margin-left: -122px;
+}
+
+
+
+.current_label  label{
+	text-overflow: ellipsis;
+	width: 72%;
+}
+.container-fluid .box-container .span12 .thumbnails li.span3{
+	margin-left: 0%;
+	margin-right: 0;
+}
+.qq-upload-list .alert-error{
+    width: auto;
+}
+.qq-upload-list{
+    height: auto;
+    min-height: 35px;
+}
+div.matrix .cell {
+    width: 11.5%;
+    min-width: auto;
+}
+.personal-information input.text{
+    width: 225px;
+}
+.professional-information input.text{
+    width: 220px;
+}

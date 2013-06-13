@@ -1,0 +1,49 @@
+/**
+ *
+ * Styles override for less than 600 pixels screens
+ */
+
+/* Class used to determine which media queries are on */
+
+	.top-navigation {
+		padding-left:15px !important;
+		padding-right:5px !important;
+	}
+	
+	.top-navigation ul{
+		margin-left: 0;
+		height:40px;
+	}
+	
+	.top-navigation ul li{
+		width:18%;
+		margin-right:2%;
+		display:inline-block;
+		white-space:nowrap;
+		text-overflow:ellipsis;
+		overflow:hidden;
+		text-align:left;
+		padding: 0 2% 0px 4.5%;
+	}
+
+	.top-navigation ul li span{
+		display: none;
+	}
+	.current_label{
+		width:100%;
+	}
+
+	form.form-inline .current_label label.cstyle{
+		width:90%;
+	}
+	
+	.categories .divider-vertical{
+		visibility: hidden;
+	}
+	.category-box .categories-container{
+		margin-left: 2%;
+	}
+.status .modal{
+	width: 245px;
+	margin-left: -122px;
+}

@@ -1,0 +1,70 @@
+/**
+ *
+ * Styles override for 480+ pixels screens
+ */
+
+/* Class used to determine which media queries are on */
+#mediaquery-checker {
+	width: 20px;
+}
+
+
+.current_label{
+	width:98%;
+}
+
+.thumbnails li.span3{
+	width: 50%;
+}
+.container-fluid .box-container .span12 .thumbnails li.span3{
+	margin-left: 2%;
+	margin-right: 0;
+}
+.container-fluid .box-container .thumbnails li.span3:first-child,
+.container-fluid .box-container .thumbnails li.span3:nth-of-type(2n+1){
+	margin-left: 0;
+}
+.statuspage input[type=text].text{
+	width: 96%;
+}
+.statuspage .status_img{
+	margin-left: 2%;
+}
+
+
+.categories.span12 .categories-container{
+	width: 95%;
+	margin-left: 0px;
+}
+
+.category-box .divider-vertical{
+	visibility: hidden;
+}
+
+
+.category-box .span8{
+	width: 65%;
+	float: left;
+}
+
+.categories .span8{
+	width: 80%;
+}
+
+
+.current_label  label{
+	text-overflow: ellipsis;
+	width: 82%;
+}
+form.form-inline label.cstyle{
+    width: 90%;
+}
+.qq-upload-list .alert-error{
+    width: auto;
+}
+.modal-scrollable .modal-wrapper input.input-xlarge{
+    width: 97%;
+}
+.professional-information .categories-container .current_label{
+    width: 90%;
+}
